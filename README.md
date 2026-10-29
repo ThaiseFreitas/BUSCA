@@ -1,2 +1,28 @@
-# BUSCA
-um mapa mental simples sobre algoritmos de busca pra quem quiser estudar.
+# Algoritmos de Busca
+
+```mermaid
+graph TD
+    A[Algoritmos de Busca] --> B[Busca Linear]
+    B --> B1[Varredura sequencial item a item]
+    B --> B2[Pior O n e Melhor O 1]
+
+    A --> C[Busca Linear Otimizada]
+    C --> C1[Interrompe ao ultrapassar o valor]
+
+    A --> D[Busca Binaria]
+    D --> D1[Exige lista ordenada]
+    D --> D2[Divisao pela metade]
+    D --> D3[Complexidade O log n]
+
+    A --> E[Busca por Interpolacao]
+    E --> E1[Estima posicao por distribuicao]
+
+    A --> F[Grafos: Dijkstra]
+    F --> F1[Caminho de menor custo]
+
+    A --> G[Grafos: Bellman Ford]
+    G --> G1[Caminho minimo com pesos negativos]
+
+    A --> H[Hash Table]
+    H --> H1[Mapeia chave para indice]
+    H --> H2[Tratamento de colisoes]
